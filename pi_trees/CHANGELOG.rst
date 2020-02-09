@@ -13,4 +13,4 @@ Changelog for package pi_trees
 * Added initial CHANGELOG.rst files
 * Cleanup
 * Initial commit
-* Contributors: Patrick Goebel
+* Contributors: Patrick Goebel 

@@ -9,5 +9,5 @@
     <param name="low_battery_threshold" value="50" />
     <param name="dotfilepath" value="$(arg dotfilepath)" />
   </node>
-  
+   
 </launch>

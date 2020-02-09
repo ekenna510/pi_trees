@@ -27,7 +27,7 @@ class MonitorTask(Task):
             except:
                 rospy.loginfo("Timed out waiting for " + topic)
                 
-        # Subscribe to the given topic with the given callback function executed via run() 
+        # Subscribe to the given topic with the given callback  function executed via run() 
         rospy.Subscriber(self.topic, self.msg_type, self._msg_cb)
         
     def _msg_cb(self, msg):

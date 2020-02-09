@@ -90,7 +90,7 @@ class Patrol():
             # Is the fake battery level below threshold?
             CHECK_BATTERY = CallbackTask("BATTERY_OK?", self.check_battery)  
             
-            # Set the fake battery level back to 100 using a ServiceTask
+            # Set the fake battery level back to 100 using a ServiceTask 
             CHARGE_COMPLETE = ServiceTask("CHARGE_COMPLETE", "/battery_simulator/set_battery_level", SetBatteryLevel, 100, result_cb=self.recharge_cb)
             
             # Sleep for the given interval to simulate charging

@@ -16,7 +16,7 @@ class CompositeTasks():
         
         WAIT_TASK = WaitTask("Wait Task", 5)
         
-        # Create three counting tasks
+        # Create three counting tasks 
         COUNT2 = Count("Count+2", 1, 2, 1)
         COUNT5 = Count("Count-5", 5, 1, -1)
         COUNT16 = Count("Count+16", 1, 16, 1)

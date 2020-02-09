@@ -2,7 +2,7 @@
 Changelog for package pi_trees_lib
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.1.2 (2016-09-25)
+0.1.2 (2016-09-25) 
 ------------------
 * Added error message when number of random weights do not match number of children
 * Added weighted_random_example.py

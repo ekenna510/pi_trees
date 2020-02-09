@@ -11,7 +11,7 @@ class WeightedRandomExample():
         # Create a ParallelOne composite task (returns SUCCESS as soon as any subtask returns SUCCESS)
         WEIGHTED_RANDOM_TASKS = WeightedRandomSelector("Weighted Random Selector", weights=[3, 2, 1], reset_after=True)
         
-        # Create three counting tasks
+        # Create three counting tasks 
         TASK1 = Message("High_Probability", "Highest Probability Task")
         TASK2 = Message("Medium_Probability", "Medium Probability Task")
         TASK3 = Message("Low_Probability", "Lowest Probability Task")

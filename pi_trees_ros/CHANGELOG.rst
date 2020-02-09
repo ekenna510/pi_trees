@@ -10,7 +10,7 @@ Changelog for package pi_trees_ros
 * Tweaked done_cb behavior for SimpleActionTask so that a user-defined done_cb is appended to the default_done_cb instead of replacing it
 * adding sys import to resolve error in ServiceTask
 * Updated dependencies in package.xml files
-* Contributors: Patrick Goebel, maxfolley
+* Contributors: Patrick Goebel, maxfolley 
 
 0.1.1 (2014-08-01)
 ------------------

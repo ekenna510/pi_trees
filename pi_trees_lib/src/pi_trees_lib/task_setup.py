@@ -11,7 +11,7 @@ from math import  pi
 from collections import OrderedDict
 
 def setup_task_environment(self):
-    # How big is the square we want the robot to patrol?
+    # How big is the square we want the robot to patrol? 
     self.square_size = rospy.get_param("~square_size", 1.0) # meters
     
     # Set the low battery threshold (between 0 and 100)

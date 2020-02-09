@@ -4,7 +4,7 @@ project(pi_trees_lib)
 
 find_package(catkin REQUIRED)
 
-catkin_package()
+catkin_package() 
 
 catkin_python_setup()
 

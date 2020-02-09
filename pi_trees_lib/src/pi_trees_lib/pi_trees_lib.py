@@ -15,7 +15,7 @@ class TaskStatus(object):
     SUCCESS = 1
     RUNNING = 2
 
-# A global value to track when the tree's status has changed.  Used in the print_dot_tree() function.
+# A global value to track when the tree's status has changed.  Used in the print_dot_tree() function. 
 last_dot_tree = ''
 
 def weighted_choice(weights):
