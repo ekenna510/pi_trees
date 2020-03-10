@@ -51,7 +51,7 @@ class ServiceTask(Task):
         rospy.loginfo("Connecting to service " + service)
         
         if wait_for_service:
-            rospy.loginfo("Waiting for service")
+            rospy.loginfo("Waiting for service " + service)
             rospy.wait_for_service(service, timeout=self.timeout)
             rospy.loginfo("Connected.")
         
